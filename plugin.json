@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "salvo",
+  "version": "1.0.0",
+  "description": "Run a job search through Salvo from your agent: check applications and interviews, get interview prep, pause the search, change titles, or send a job link to apply to.",
+  "author": { "name": "Salvo", "url": "https://sendsalvo.com" },
+  "homepage": "https://sendsalvo.com/connect.html",
+  "repository": "https://github.com/markosdaget/salvo-agent",
+  "license": "MIT",
+  "keywords": ["jobs", "job-search", "job-applications", "interviews", "mcp"],
+  "extensions": { "com.nousresearch.hermes": { "servers": { "salvo": { "trust": "untrusted" } } } }
+}
